@@ -1,0 +1,14 @@
+.contactslistLinks{
+  padding-left: 1rem;
+  font-size: 1.4rem;
+  li{
+    list-style-type: disc;
+  }
+}
+#submit{
+  color: white;
+  background: $color-links;
+  &:hover{
+    background: $color-nav-hover;
+  }
+}

@@ -1,0 +1,55 @@
+.header{
+  //background-image: url("../img/header.jpg");
+  //background-size: contain;
+}
+.headerTitle{
+  font-size: 26px;
+  margin: 20px 0;
+  text-align: center;
+  color: $color-links;
+  font-weight: bold;
+  text-shadow: 0.1px 0.1px 0.1px #ffffff, 0 0 brown;
+}
+.navbar {
+  border: 1px solid #757575;
+  border-left: none;
+  border-right: none;
+  padding: 0 16px !important;
+  margin-bottom: 10px;
+  background-color: #fafafa;
+  a {
+    //color: #757575 !important;
+    color: $color-links !important;
+    font-size: 20px;
+    font-family: Philosopher, arial, sans-serif;
+  }
+}
+.nav-link {
+  display: block;
+  padding: .5rem 1rem;
+}
+.navbar a:hover, .navbar-toggler-icon:hover {
+  color: #ff8c07 !important;
+}
+.phone {
+  text-align: right;
+  line-height: 24px;
+}
+.headerTitle{
+  span{
+    z-index:1;
+    position:relative;
+    &:after{
+      z-index:-1;
+      width: 2rem;
+      height: 2rem;
+      position: absolute;
+      //background: url(../img/trees.svg) no-repeat;
+      //top: -1px;
+      //right: -40px;
+      background: url(../img/leaf.svg) no-repeat;
+      content :"";
+    }
+  }
+
+}

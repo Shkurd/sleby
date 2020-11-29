@@ -1,0 +1,28 @@
+.blog{
+  &__subTitle{
+    margin-bottom: 25px;
+  }
+  &__list{
+    list-style-type: disc;
+    margin: 30px 5px 30px 5px;
+    &_wrap{
+      padding-left: 3%;
+    }
+    &_title{
+      font-size: 26px;
+    }
+    &_description{
+      font-style: italic;
+      margin-bottom: .1rem!important;
+    }
+    &_read{
+      & span {
+        color: $color-links;
+        &:hover{
+          color:#00adff!important;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

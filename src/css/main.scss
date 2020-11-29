@@ -1,0 +1,159 @@
+$bg-color: #ffe1a3; //переменная
+$primary-color: red; //переменная
+
+$color-nav-hover: #ff8c07;//#bfa100
+$color-links: #ce5a15;
+$color-links-hover: #00adff;
+$main-color-text: #757575;
+$h-color: #656565;
+$main-font-family:Philosopher, arial, sans-serif;
+$main-bg-color: none;
+$nav-footer-bg-color:#fafafa;
+
+body{
+  margin: 0;
+  font-family: Philosopher, arial, sans-serif;
+  color: #757575!important;
+  font-size: 1rem;
+  line-height: 1.5;
+  background-image: url("../img/bg.jpg");
+  a {
+    color: #757575;
+  }
+  p {
+    font-size: 1.4rem;
+  }
+  ul, ol {
+    padding: 0;
+  }
+  li {
+    list-style-type: none;
+  }
+}
+
+h1, h2, h3 {
+  margin: 10px 0;
+  text-align: center;
+  font-size: 32px;
+  color: #656565;
+}
+
+@import "header.scss"; //импорт стороннего файла
+@import "footer.scss"; //импорт стороннего файла
+@import "simplelightbox"; //импорт стороннего файла
+@import "contacts"; //импорт стороннего файла
+@import "catalog"; //импорт стороннего файла
+@import "blog"; //импорт стороннего файла
+@import "articles"; //импорт стороннего файла
+
+@import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'; // так можно подключить стили бутстрап
+
+.main{
+  &__list{
+    font-size: 1.4rem;
+    padding-left: 20px;
+    li{
+      list-style-type: disc;
+    }
+  }
+}
+.container{
+  background: rgba(255, 255, 255, 0.9);
+}
+section{
+  padding: 0 2rem;
+  @media screen and (max-width: 991px) {
+    padding: 0 1rem;
+  }
+  @media screen and (max-width: 640px) {
+    padding: 0 0.3rem;
+  }
+
+}
+.error{
+  img{
+    max-width: 100%;
+  }
+}
+.site__map{
+  p{
+    font-size: 1.5rem;
+  }
+  ul{
+    padding-left: 30px;
+    font-size: 1.3rem;
+    li{
+      list-style-type: disc;
+    }
+  }
+}
+.centered{
+  font-size: 26px;
+  margin: 20px 0;
+  text-align:center;
+}
+.toCenter{
+  text-align:center;
+}
+a.linkFollow {
+  color: #ce5a15;
+  &:hover{
+    color: #00adff;
+    text-decoration: none;
+    background-color: transparent;
+  }
+}
+.phone {
+  text-align: right;
+  line-height: 24px;
+  padding: 5px 16px 0 16px;
+}
+a:hover {
+  text-decoration: none;
+  color: #00adff !important;
+}
+.phone > a {
+  font-size: 18px;
+}
+.phone > a::before {
+  position: relative;
+  top: 4px;
+  left: -4px;
+  content: url(../img/velcomeViber.png);
+}
+.slbArrow.next, .slbArrow.prev{
+  display: none!important;
+}
+.slbCaption{
+  color:white;
+}
+.imageGallery img{
+  max-width: 100%;
+}
+.imageGallery > div p, .imageGallery > div{
+  text-align: center;
+}
+.social{
+  display: flex;
+  justify-content:center;
+  li{
+    width: 2rem;
+    margin: 0px 3px;
+  }
+}
+button.slbCloseBtn:focus{
+    outline:none!important;
+}
+#back-to-top{
+  &:hover{
+    color: white!important;
+    background: $color-nav-hover;
+  }
+}
+
+
+
+
+@media screen and (max-width: 991px) {
+  margin: 0 auto;
+}
