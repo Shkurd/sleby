@@ -16,6 +16,7 @@ export const slebyDubMoreny = [
         description:""
     },
     */
+    /*
     {
         id: 2,
         name: "Слэб дуба мореного сухой (№SDM_002)",
@@ -29,6 +30,7 @@ export const slebyDubMoreny = [
         linkResize: "img/category_sleby_dub_moreny/resize/SDM_002.jpg",
         description:""
     },
+    */
     {
         id: 3,
         name: "Слэб дуба мореного сухой (№SDM_003)",

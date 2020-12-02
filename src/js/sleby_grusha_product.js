@@ -65,10 +65,11 @@ export const slebyGrusha = [
         linkResize: "img/category_sleby_grusha/resize/SG_005.jpg",
         description:""
     },
+    /*
     {
         id: 6,
-        name: "Слэб груши сухой (№SG_3шт)",
-        nameCode: "№SG_3шт",
+        name: "Слэб груши сухой (№SG_006)",
+        nameCode: "№SG_006",
         price: 210,
         height: 250,
         widthMin: 0,
@@ -78,6 +79,7 @@ export const slebyGrusha = [
         linkResize: "img/category_sleby_grusha/resize/SG_006.jpg",
         description:""
     },
+    */ 
 
 
 ];

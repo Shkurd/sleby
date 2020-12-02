@@ -28,6 +28,7 @@ export const doskaDub = [
         description:""
     },
     */
+    /*
     {
         id: 3,
         name: "Доска дубовая (№DD_003)",
@@ -41,6 +42,7 @@ export const doskaDub = [
         linkResize: "img/category_doska_dub/resize/DD_003.jpg",
         description:""
     },
+    */
     {
         id: 4,
         name: "Доска дубовая сухая (№DD_004)",

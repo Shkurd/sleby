@@ -175,7 +175,9 @@ export const slebyDub = [
         linkFullsize: "img/category_sleby_dub/full/SD_013.jpg",
         linkResize: "img/category_sleby_dub/resize/SD_013.jpg",
         description:""
-    },*/
+    },
+    */
+    /*
     {
         id: 14,
         name: "Дубовый слэб сухой (№SD_014)",
@@ -189,6 +191,7 @@ export const slebyDub = [
         linkResize: "img/category_sleby_dub/resize/SD_014.jpg",
         description:""
     },
+    */
     {
         id: 15,
         name: "Дубовый слэб сухой (№SD_015)",
@@ -215,6 +218,7 @@ export const slebyDub = [
         linkResize: "img/category_sleby_dub/resize/SD_016.jpg",
         description:""
     },
+    /*
     {
         id: 17,
         name: "Дубовый слэб сухой (№SD_017)",
@@ -228,6 +232,7 @@ export const slebyDub = [
         linkResize: "img/category_sleby_dub/resize/sleb_duba_017.jpg",
         description:""
     },
+    */
     {
         id: 18,
         name: "Дубовый слэб сухой (№SD_018)",

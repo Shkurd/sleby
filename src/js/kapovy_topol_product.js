@@ -1,9 +1,10 @@
 'use strict';
 export const slebyKapovyTopol = [
+    /*
     {
         id: 1,
-        name: "Слэб капового тополя сухой (№K_001)",
-        nameCode: "№K_001",
+        name: "Слэб капового тополя сухой (SKT_001)",
+        nameCode: "SKT_001",
         price: 650,
         height: 350,
         widthMin: 0,
@@ -13,10 +14,11 @@ export const slebyKapovyTopol = [
         linkResize: "img/category_kapovy_topol/resize/kapovy_topol_001.jpg",
         description:""
     },
+    */
     {
         id: 2,
-        name: "Слэб капового тополя сухой (№K_002)",
-        nameCode: "№K_002",
+        name: "Слэб капового тополя сухой (SKT_002)",
+        nameCode: "SKT_002",
         price: 650,
         height: 300,
         widthMin: 0,
@@ -28,8 +30,8 @@ export const slebyKapovyTopol = [
     },
     {
         id: 3,
-        name: "Слэб капового тополя сухой (№K_003)",
-        nameCode: "№K_003",
+        name: "Слэб капового тополя сухой (SKT_003)",
+        nameCode: "SKT_003",
         price: 600,
         height: 280,
         widthMin: 0,
@@ -41,8 +43,8 @@ export const slebyKapovyTopol = [
     },
     {
         id: 4,
-        name: "Слэб капового тополя сухой (№K_004)",
-        nameCode: "№K_004",
+        name: "Слэб капового тополя сухой (SKT_004)",
+        nameCode: "SKT_004",
         price: 500,
         height: 220,
         widthMin: 0,
@@ -54,8 +56,8 @@ export const slebyKapovyTopol = [
     },
     {
         id: 5,
-        name: "Слэб капового тополя сухой (№K_005)",
-        nameCode: "№K_005",
+        name: "Слэб капового тополя сухой (SKT_005)",
+        nameCode: "SKT_005",
         price: 600,
         height: 290,
         widthMin: 0,
@@ -67,8 +69,8 @@ export const slebyKapovyTopol = [
     },
     {
         id: 6,
-        name: "Слэб капового тополя сухой (№K_006)",
-        nameCode: "№K_006",
+        name: "Слэб капового тополя сухой (SKT_006)",
+        nameCode: "SKT_006",
         price: 600,
         height: 285,
         widthMin: 0,
@@ -80,8 +82,8 @@ export const slebyKapovyTopol = [
     },
     {
         id: 7,
-        name: "Слэб капового тополя сухой (№K_007)",
-        nameCode: "№K_007",
+        name: "Слэб капового тополя сухой (SKT_007)",
+        nameCode: "SKT_007",
         price: 500,
         height: 310,
         widthMin: 0,
@@ -93,8 +95,8 @@ export const slebyKapovyTopol = [
     },
     {
         id: 8,
-        name: "Слэб капового тополя сухой (№K_008)",
-        nameCode: "№K_008",
+        name: "Слэб капового тополя сухой (SKT_008)",
+        nameCode: "SKT_008",
         price: 600,
         height: 330,
         widthMin: 0,
@@ -107,8 +109,8 @@ export const slebyKapovyTopol = [
     /*
     {
         id: 9,
-        name: "Слэб капового тополя сухой (№K_009)",
-        nameCode: "№K_009",
+        name: "Слэб капового тополя сухой (SKT_009)",
+        nameCode: "SKT_009",
         price: 600,
         height: 330,
         widthMin: 0,
@@ -121,8 +123,8 @@ export const slebyKapovyTopol = [
     */
     {
         id: 10,
-        name: "Слэб капового тополя сухой (№K_010)",
-        nameCode: "№K_010",
+        name: "Слэб капового тополя сухой (SKT_010)",
+        nameCode: "SKT_010",
         price: 650,
         height: 350,
         widthMin: 0,
@@ -134,8 +136,8 @@ export const slebyKapovyTopol = [
     },
     {
         id: 11,
-        name: "Слэб капового тополя сухой (№K_011)",
-        nameCode: "№K_011",
+        name: "Слэб капового тополя сухой (SKT_011)",
+        nameCode: "SKT_011",
         price: 500,
         height: 187,
         widthMin: 0,
@@ -147,8 +149,8 @@ export const slebyKapovyTopol = [
     },
     {
         id: 12,
-        name: "Слэб капового тополя сухой (№K_012)",
-        nameCode: "№K_012",
+        name: "Слэб капового тополя сухой (SKT_012)",
+        nameCode: "SKT_012",
         price: 650,
         height: 310,
         widthMin: 0,
@@ -160,8 +162,8 @@ export const slebyKapovyTopol = [
     },
     {
         id: 13,
-        name: "Слэб капового тополя сухой (№K_013)",
-        nameCode: "№K_013",
+        name: "Слэб капового тополя сухой (SKT_013)",
+        nameCode: "SKT_013",
         price: 500,
         height: 230,
         widthMin: 0,
@@ -173,8 +175,8 @@ export const slebyKapovyTopol = [
     },
     {
         id: 14,
-        name: "Слэб капового тополя сухой (№K_014)",
-        nameCode: "№K_014",
+        name: "Слэб капового тополя сухой (SKT_014)",
+        nameCode: "SKT_014",
         price: 600,
         height: 290,
         widthMin: 0,
