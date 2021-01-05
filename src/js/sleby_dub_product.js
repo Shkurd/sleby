@@ -261,6 +261,7 @@ export const slebyDub = [
         description:""
     },
     */
+    /*
     {
         id: 20,
         name: "Дубовый слэб сухой (№SD_020)",
@@ -274,6 +275,7 @@ export const slebyDub = [
         linkResize: "img/category_sleby_dub/resize/SD_020.jpg",
         description:""
     },
+    */
     /*
     {
         id: 21,
