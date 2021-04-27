@@ -80,6 +80,7 @@ export const slebyKapovyTopol = [
         linkResize: "img/category_kapovy_topol/resize/kapovy_topol_006.jpg",
         description:""
     },
+    /*
     {
         id: 7,
         name: "Слэб капового тополя сухой (SKT_007)",
@@ -93,6 +94,7 @@ export const slebyKapovyTopol = [
         linkResize: "img/category_kapovy_topol/resize/kapovy_topol_007.jpg",
         description:""
     },
+    */
     {
         id: 8,
         name: "Слэб капового тополя сухой (SKT_008)",

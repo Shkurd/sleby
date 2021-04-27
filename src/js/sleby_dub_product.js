@@ -99,6 +99,7 @@ export const slebyDub = [
         description:""
     },
     */
+    /*
     {
         id: 8,
         name: "Дубовый слэб сухой (№SD_008)",
@@ -112,6 +113,8 @@ export const slebyDub = [
         linkResize: "img/category_sleby_dub/resize/SD_008.jpg",
         description:""
     },
+    */
+    /*
     {
         id: 9,
         name: "Дубовый слэб сухой (№SD_009)",
@@ -125,6 +128,7 @@ export const slebyDub = [
         linkResize: "img/category_sleby_dub/resize/SD_009.jpg",
         description:""
     },
+    */
     {
         id: 10,
         name: "Дубовый слэб сухой (№SD_010)",

@@ -16,6 +16,9 @@
     <meta name="google-site-verification" content="c0QCc7hl1tV6zQq57k2hm2UutEXjG0tdzYfX9qUWDEQ"/>
     <meta name="yandex-verification" content="1ec0265006c0c2c2" />
 
+    <!-- jivosite -->
+    <script src="//code.jivosite.com/widget/SguD1AoaQz" async></script>
+
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};

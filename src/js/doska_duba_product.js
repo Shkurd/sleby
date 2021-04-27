@@ -172,6 +172,7 @@ export const doskaDub = [
         description:""
     }
     */
+    /*
     {
         id: 25,
         name: "Доска дубовая (№DD_025)",
@@ -185,4 +186,5 @@ export const doskaDub = [
         linkResize: "img/category_doska_dub/resize/DD_025.jpg",
         description:""
     }
+    */
 ];
