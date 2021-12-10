@@ -18,11 +18,12 @@
             <section>
                 <h1>Доска дуба.</h1>
                 <p class="main__text">
-                    В этой категории товаров представлена доска дуба (как правило шириной менее 60см), а так же типовая дубовая доска (шириной 30-50см).<br>
+                    В этой категории товаров представлена доска дуба (как правило шириной менее 60см).<!--, а так же типовая дубовая доска (шириной 30-50см).--><br>
                     По любым вопросам:<br>
                     Звоните  <a class="linkFollow" href="tel:+375291860031">+375 (29) 186-00-31</a><br>
                     Пишите <a class="linkFollow" href="mailto:ecodesignbel@gmail.com">ecodesignbel@gmail.com</a>
                 </p>
+                <!--
                 <h3>Доска дубовая широкая (типовая - №DDT_001).</h3>
                 <div class="row justify-content-around imageGallery">
                     <div class="col-lg-6 col-sm-12">
@@ -42,6 +43,7 @@
                         </p>
                     </div>
                 </div>
+                -->
                 <p>
                     Всего товаров в данной категории: <b><span id="product_dub_amount"></span></b>.
                 </p>

@@ -17,7 +17,7 @@
     <meta name="yandex-verification" content="1ec0265006c0c2c2" />
 
     <!-- jivosite -->
-    <script src="//code.jivosite.com/widget/SguD1AoaQz" async></script>
+    <script src="//code.jivosite.com/widget/l2DBc1F54F" async></script>
 
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
