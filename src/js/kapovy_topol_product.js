@@ -1,20 +1,21 @@
 'use strict';
 export const slebyKapovyTopol = [
-    /*
+    
     {
         id: 1,
-        name: "Слэб капового тополя сухой (SKT_001)",
+        name: "Спил капового тополя (SKT_001)",
         nameCode: "SKT_001",
-        price: 650,
-        height: 350,
+        price: 750,
+        height: 110,
         widthMin: 0,
-        widthMax: 90,
-        thickness: 6,
+        widthMax: 130,
+        thickness: 12,
         linkFullsize: "img/category_kapovy_topol/full/kapovy_topol_001.jpg",
         linkResize: "img/category_kapovy_topol/resize/kapovy_topol_001.jpg",
         description:""
     },
-    */
+    
+    /*
     {
         id: 2,
         name: "Слэб капового тополя сухой (SKT_002)",
@@ -28,6 +29,8 @@ export const slebyKapovyTopol = [
         linkResize: "img/category_kapovy_topol/resize/kapovy_topol_002.jpg",
         description:""
     },
+    */
+    /*
     {
         id: 3,
         name: "Слэб капового тополя сухой (SKT_003)",
@@ -41,6 +44,7 @@ export const slebyKapovyTopol = [
         linkResize: "img/category_kapovy_topol/resize/kapovy_topol_003.jpg",
         description:""
     },
+    */
     {
         id: 4,
         name: "Слэб капового тополя сухой (SKT_004)",
@@ -54,6 +58,7 @@ export const slebyKapovyTopol = [
         linkResize: "img/category_kapovy_topol/resize/kapovy_topol_004.jpg",
         description:""
     },
+    /*
     {
         id: 5,
         name: "Слэб капового тополя сухой (SKT_005)",
@@ -80,6 +85,7 @@ export const slebyKapovyTopol = [
         linkResize: "img/category_kapovy_topol/resize/kapovy_topol_006.jpg",
         description:""
     },
+    */
     /*
     {
         id: 7,
@@ -95,6 +101,7 @@ export const slebyKapovyTopol = [
         description:""
     },
     */
+    /*
     {
         id: 8,
         name: "Слэб капового тополя сухой (SKT_008)",
@@ -108,6 +115,7 @@ export const slebyKapovyTopol = [
         linkResize: "img/category_kapovy_topol/resize/kapovy_topol_008.jpg",
         description:""
     },
+    */
     /*
     {
         id: 9,
@@ -123,6 +131,7 @@ export const slebyKapovyTopol = [
         description:""
     },
     */
+    /*
     {
         id: 10,
         name: "Слэб капового тополя сухой (SKT_010)",
@@ -136,6 +145,7 @@ export const slebyKapovyTopol = [
         linkResize: "img/category_kapovy_topol/resize/kapovy_topol_010.jpg",
         description:""
     },
+    */
     {
         id: 11,
         name: "Слэб капового тополя сухой (SKT_011)",
@@ -149,6 +159,7 @@ export const slebyKapovyTopol = [
         linkResize: "img/category_kapovy_topol/resize/kapovy_topol_011.jpg",
         description:""
     },
+    /*
     {
         id: 12,
         name: "Слэб капового тополя сухой (SKT_012)",
@@ -188,5 +199,6 @@ export const slebyKapovyTopol = [
         linkResize: "img/category_kapovy_topol/resize/kapovy_topol_014.jpg",
         description:""
     },
+    */
 
 ];
