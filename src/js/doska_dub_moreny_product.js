@@ -1,5 +1,5 @@
 'use strict';
-
+// Цена "price" должна быть в долларах, а потом она умножается на курс доллара из файла dollar_rate.js
 export const doskaDubMoreny = [
     {
         id: 1,

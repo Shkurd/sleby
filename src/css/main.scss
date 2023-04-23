@@ -129,6 +129,8 @@ a:hover {
 }
 .imageGallery img{
   max-width: 100%;
+  object-fit: cover;
+  aspect-ratio: 3 / 2;
 }
 .imageGallery > div p, .imageGallery > div{
   text-align: center;

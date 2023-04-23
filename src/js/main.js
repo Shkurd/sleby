@@ -12,6 +12,7 @@ import {doskaDubMoreny} from './doska_dub_moreny_product';
 import {slebyDubMoreny} from './sleby_dub_moreny_product';
 import {slebyGrusha} from './sleby_grusha_product';
 import {slebyKapovyTopol} from './kapovy_topol_product';
+import dollarRate from "./dollar_rate";
 
 const SimpleLightbox = require('simple-lightbox');
 const simpleLightboxOptions = SimpleLightbox.defaults;
@@ -182,13 +183,13 @@ const showProductGrushaSlab = (slebyGrusha)=>{
         div.innerHTML =
             `<h3 class="category">${currentProduct.name}</h3>
          <p>
-             <a href="${currentProduct.linkFullsize}" data-description="${currentProduct.name} Цена: ${currentProduct.price} руб. <br> Размер: ${currentProduct.height}*${currentProduct.widthMax}-${currentProduct.widthMin}*${currentProduct.thickness}см."><img src="${currentProduct.linkResize}" alt="Доска дубовая" /></a>
+             <a href="${currentProduct.linkFullsize}" data-description="${currentProduct.name} Цена: ${currentProduct.price * dollarRate} руб. <br> Размер: ${currentProduct.height}*${currentProduct.widthMax}-${currentProduct.widthMin}*${currentProduct.thickness}см."><img src="${currentProduct.linkResize}" alt="Доска дубовая" /></a>
          </p>
          <p><b>Размеры:</b><br>
          Длина: ${currentProduct.height}см;<br>
          Ширина: ${currentProduct.widthMax}-${currentProduct.widthMin}см;<br>
          Толщина: ${currentProduct.thickness}см;<br>
-         Цена: <span class="price">${currentProduct.price} руб</span>
+         Цена: <span class="price">${currentProduct.price * dollarRate} руб</span>
          </p>`;
         product_grusha_sleb.appendChild(div);
     });
