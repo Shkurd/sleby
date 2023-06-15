@@ -6,7 +6,7 @@ export const doskaYasen = [
         name: "Доска ясеня сухая (№DYA_001)",
         nameCode: "№DYA_001",
         price: 100,
-        height: 300,
+        height: 150,
         widthMin: 33,
         widthMax: 36,
         thickness: 4,

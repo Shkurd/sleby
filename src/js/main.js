@@ -63,13 +63,13 @@ const showProductSlab = (slebyDub)=>{
         div.innerHTML =
             `<h3 class="category">${currentProduct.name}</h3>
          <p>
-             <a href="${currentProduct.linkFullsize}" data-description="${currentProduct.name} Цена: ${currentProduct.price} руб. <br> Размер: ${currentProduct.height}*${currentProduct.widthMax}-${currentProduct.widthMin}*${currentProduct.thickness}см."><img src="${currentProduct.linkResize}" alt="Дубовый слэб" title="Дубовый слэб"></a>
+             <a href="${currentProduct.linkFullsize}" data-description="${currentProduct.name} Цена: ${currentProduct.price * dollarRate} руб. <br> Размер: ${currentProduct.height}*${currentProduct.widthMax}-${currentProduct.widthMin}*${currentProduct.thickness}см."><img src="${currentProduct.linkResize}" alt="Дубовый слэб" title="Дубовый слэб"></a>
          </p>
          <p><b>Размеры:</b><br>
          Длина: ${currentProduct.height}см;<br>
          Ширина: ${currentProduct.widthMax}-${currentProduct.widthMin}см;<br>
          Толщина: ${currentProduct.thickness}см;<br>
-         Цена: <span class="price">${currentProduct.price} руб</span>
+         Цена: <span class="price">${currentProduct.price * dollarRate} руб</span>
          </p>`;
         product_slab.appendChild(div);
     });
@@ -87,13 +87,13 @@ const showProductDub = (doskaDub)=>{
         div.innerHTML =
             `<h3 class="category">${currentProduct.name}</h3>
          <p>
-             <a href="${currentProduct.linkFullsize}" data-description="${currentProduct.name} Цена: ${currentProduct.price} руб. <br> Размер: ${currentProduct.height}*${currentProduct.widthMax}-${currentProduct.widthMin}*${currentProduct.thickness}см."><img src="${currentProduct.linkResize}" alt="Доска дубовая" /></a>
+             <a href="${currentProduct.linkFullsize}" data-description="${currentProduct.name} Цена: ${currentProduct.price * dollarRate} руб. <br> Размер: ${currentProduct.height}*${currentProduct.widthMax}-${currentProduct.widthMin}*${currentProduct.thickness}см."><img src="${currentProduct.linkResize}" alt="Доска дубовая" /></a>
          </p>
          <p><b>Размеры:</b><br>
          Длина: ${currentProduct.height}см;<br>
          Ширина: ${currentProduct.widthMax}-${currentProduct.widthMin}см;<br>
          Толщина: ${currentProduct.thickness}см;<br>
-         Цена: <span class="price">${currentProduct.price} руб</span>
+         Цена: <span class="price">${currentProduct.price * dollarRate} руб</span>
          </p>`;
         product_dub.appendChild(div);
     });
@@ -111,13 +111,13 @@ const showProductYasen = (doskaYasen)=>{
         div.innerHTML =
             `<h3 class="category">${currentProduct.name}</h3>
          <p>
-             <a href="${currentProduct.linkFullsize}" data-description="${currentProduct.name} Цена: ${currentProduct.price} руб. <br> Размер: ${currentProduct.height}*${currentProduct.widthMax}-${currentProduct.widthMin}*${currentProduct.thickness}см."><img src="${currentProduct.linkResize}" alt="Доска дубовая" /></a>
+             <a href="${currentProduct.linkFullsize}" data-description="${currentProduct.name} Цена: ${currentProduct.price * dollarRate} руб. <br> Размер: ${currentProduct.height}*${currentProduct.widthMax}-${currentProduct.widthMin}*${currentProduct.thickness}см."><img src="${currentProduct.linkResize}" alt="Доска дубовая" /></a>
          </p>
          <p><b>Размеры:</b><br>
          Длина: ${currentProduct.height}см;<br>
          Ширина: ${currentProduct.widthMax}-${currentProduct.widthMin}см;<br>
          Толщина: ${currentProduct.thickness}см;<br>
-         Цена: <span class="price">${currentProduct.price} руб</span>
+         Цена: <span class="price">${currentProduct.price * dollarRate} руб</span>
          </p>`;
         product_yasen.appendChild(div);
     });
@@ -135,13 +135,13 @@ const showProductDubMoreny = (doskaDubMoreny)=>{
         div.innerHTML =
             `<h3 class="category">${currentProduct.name}</h3>
          <p>
-             <a href="${currentProduct.linkFullsize}" data-description="${currentProduct.name} Цена: ${currentProduct.price} руб. <br> Размер: ${currentProduct.height}*${currentProduct.widthMax}-${currentProduct.widthMin}*${currentProduct.thickness}см."><img src="${currentProduct.linkResize}" alt="Доска дубовая" /></a>
+             <a href="${currentProduct.linkFullsize}" data-description="${currentProduct.name} Цена: ${currentProduct.price * dollarRate} руб. <br> Размер: ${currentProduct.height}*${currentProduct.widthMax}-${currentProduct.widthMin}*${currentProduct.thickness}см."><img src="${currentProduct.linkResize}" alt="Доска дубовая" /></a>
          </p>
          <p><b>Размеры:</b><br>
          Длина: ${currentProduct.height}см;<br>
          Ширина: ${currentProduct.widthMax}-${currentProduct.widthMin}см;<br>
          Толщина: ${currentProduct.thickness}см;<br>
-         Цена: <span class="price">${currentProduct.price} руб</span>
+         Цена: <span class="price">${currentProduct.price * dollarRate} руб</span>
          </p>`;
         product_dub_moreny.appendChild(div);
     });
@@ -159,13 +159,13 @@ const showProductDubMorenySlab = (slebyDubMoreny)=>{
         div.innerHTML =
             `<h3 class="category">${currentProduct.name}</h3>
          <p>
-             <a href="${currentProduct.linkFullsize}" data-description="${currentProduct.name} Цена: ${currentProduct.price} руб. <br> Размер: ${currentProduct.height}*${currentProduct.widthMax}-${currentProduct.widthMin}*${currentProduct.thickness}см."><img src="${currentProduct.linkResize}" alt="Доска дубовая" /></a>
+             <a href="${currentProduct.linkFullsize}" data-description="${currentProduct.name} Цена: ${currentProduct.price * dollarRate} руб. <br> Размер: ${currentProduct.height}*${currentProduct.widthMax}-${currentProduct.widthMin}*${currentProduct.thickness}см."><img src="${currentProduct.linkResize}" alt="Доска дубовая" /></a>
          </p>
          <p><b>Размеры:</b><br>
          Длина: ${currentProduct.height}см;<br>
          Ширина: ${currentProduct.widthMax}-${currentProduct.widthMin}см;<br>
          Толщина: ${currentProduct.thickness}см;<br>
-         Цена: <span class="price">${currentProduct.price} руб</span>
+         Цена: <span class="price">${currentProduct.price * dollarRate} руб</span>
          </p>`;
         product_dub_moreny_sleb.appendChild(div);
     });
@@ -207,13 +207,13 @@ const showProductKapovyTopol = (slebyKapovyTopol)=>{
         div.innerHTML =
             `<h3 class="category">${currentProduct.name}</h3>
          <p>
-             <a href="${currentProduct.linkFullsize}" data-description="${currentProduct.name} Цена: ${currentProduct.price} руб. <br> Размер: ${currentProduct.height}*${currentProduct.widthMax}-${currentProduct.widthMin}*${currentProduct.thickness}см."><img src="${currentProduct.linkResize}" alt="Доска дубовая" /></a>
+             <a href="${currentProduct.linkFullsize}" data-description="${currentProduct.name} Цена: ${currentProduct.price * dollarRate} руб. <br> Размер: ${currentProduct.height}*${currentProduct.widthMax}-${currentProduct.widthMin}*${currentProduct.thickness}см."><img src="${currentProduct.linkResize}" alt="Доска дубовая" /></a>
          </p>
          <p><b>Размеры:</b><br>
          Длина: ${currentProduct.height}см;<br>
          Ширина: ${currentProduct.widthMax}-${currentProduct.widthMin}см;<br>
          Толщина: ${currentProduct.thickness}см;<br>
-         Цена: <span class="price">${currentProduct.price} руб</span>
+         Цена: <span class="price">${currentProduct.price * dollarRate} руб</span>
          </p>`;
          product_kapovy_topol_sleb.appendChild(div);
     });
