@@ -59,19 +59,19 @@ export const slebyDub = [
         description:""
     },
     */
-    {
-        id: 5,
-        name: "Дубовый слэб сухой (№SD_005)",
-        nameCode: "№SD_005",
-        price: 175,
-        height: 308,
-        widthMin: 50,
-        widthMax: 69,
-        thickness: 5.5,
-        linkFullsize: "img/category_sleby_dub/full/SD_005.jpg",
-        linkResize: "img/category_sleby_dub/resize/SD_005.jpg",
-        description:""
-    },
+    // {
+    //     id: 5,
+    //     name: "Дубовый слэб сухой (№SD_005)",
+    //     nameCode: "№SD_005",
+    //     price: 175,
+    //     height: 308,
+    //     widthMin: 50,
+    //     widthMax: 69,
+    //     thickness: 5.5,
+    //     linkFullsize: "img/category_sleby_dub/full/SD_005.jpg",
+    //     linkResize: "img/category_sleby_dub/resize/SD_005.jpg",
+    //     description:""
+    // },
     /*
     {
         id: 6,
@@ -132,19 +132,19 @@ export const slebyDub = [
         description:""
     },
     */
-    {
-        id: 10,
-        name: "Дубовый слэб сухой (№SD_010)",
-        nameCode:"№SD_010",
-        price: 175,
-        height: 220,
-        widthMin: 60,
-        widthMax: 60,
-        thickness: 6.5,
-        linkFullsize: "img/category_sleby_dub/full/SD_010.jpg",
-        linkResize: "img/category_sleby_dub/resize/SD_010.jpg",
-        description:""
-    },
+    // {
+    //     id: 10,
+    //     name: "Дубовый слэб сухой (№SD_010)",
+    //     nameCode:"№SD_010",
+    //     price: 130,
+    //     height: 220,
+    //     widthMin: 60,
+    //     widthMax: 60,
+    //     thickness: 6.5,
+    //     linkFullsize: "img/category_sleby_dub/full/SD_010.jpg",
+    //     linkResize: "img/category_sleby_dub/resize/SD_010.jpg",
+    //     description:""
+    // },
     {
         id: 11,
         name: "Дубовый слэб сухой (№SD_011)",
@@ -207,7 +207,7 @@ export const slebyDub = [
         id: 15,
         name: "Дубовый слэб сухой (№SD_015)",
         nameCode:"№SD_015",
-        price: 175,
+        price: 140,
         height: 320,
         widthMin: 60,
         widthMax: 67,
@@ -220,7 +220,7 @@ export const slebyDub = [
         id: 16,
         name: "Дубовый слэб сухой (№SD_016)",
         nameCode:"№SD_016",
-        price: 175,
+        price: 130,
         height: 320,
         widthMin: 63,
         widthMax: 65,
@@ -244,19 +244,19 @@ export const slebyDub = [
         description:""
     },
     */
-    {
-        id: 18,
-        name: "Дубовый слэб сухой (№SD_018)",
-        nameCode:"№SD_018",
-        price: 200,
-        height: 250,
-        widthMin: 50,
-        widthMax: 77,
-        thickness: 6.5,
-        linkFullsize: "img/category_sleby_dub/full/SD_018.jpg",
-        linkResize: "img/category_sleby_dub/resize/SD_018.jpg",
-        description:""
-    },
+    // {
+    //     id: 18,
+    //     name: "Дубовый слэб сухой (№SD_018)",
+    //     nameCode:"№SD_018",
+    //     price: 200,
+    //     height: 250,
+    //     widthMin: 50,
+    //     widthMax: 77,
+    //     thickness: 6.5,
+    //     linkFullsize: "img/category_sleby_dub/full/SD_018.jpg",
+    //     linkResize: "img/category_sleby_dub/resize/SD_018.jpg",
+    //     description:""
+    // },
     /*
     {
         id: 19,
@@ -306,7 +306,7 @@ export const slebyDub = [
         id: 22,
         name: "Дубовый слэб сухой (№SD_022)",
         nameCode:"№SD_022",
-        price: 175,
+        price: 130,
         height: 240,
         widthMin: 50,
         widthMax: 50,
