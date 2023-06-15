@@ -57,7 +57,7 @@ export const doskaDubMoreny = [
         id: 7,
         name: "Доска дуба мореного сухая (№DDM_007)",
         nameCode:"№DDM_007",
-        price: 315,
+        price: 160,
         height: 197,
         widthMin: 26,
         widthMax: 30,
