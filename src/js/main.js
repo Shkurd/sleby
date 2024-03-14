@@ -47,7 +47,7 @@ const toTop = ()=>{
 };
 
 const getSimpleLightbox = ()=>{
-    $('.imageGallery a').simpleLightbox();
+    $('.imageGallery a.item-image').simpleLightbox();
 };
 
 
@@ -63,13 +63,14 @@ const showProductSlab = (slebyDub)=>{
         div.innerHTML =
             `<h3 class="category">${currentProduct.name}</h3>
          <p>
-             <a href="${currentProduct.linkFullsize}" data-description="${currentProduct.name} Цена: ${currentProduct.price * dollarRate} руб. <br> Размер: ${currentProduct.height}*${currentProduct.widthMax}-${currentProduct.widthMin}*${currentProduct.thickness}см."><img src="${currentProduct.linkResize}" alt="Дубовый слэб" title="Дубовый слэб"></a>
+             <a class="item-image" href="${currentProduct.linkFullsize}" data-description="${currentProduct.name} Цена: ${currentProduct.price * dollarRate} руб. <br> Размер: ${currentProduct.height}*${currentProduct.widthMax}-${currentProduct.widthMin}*${currentProduct.thickness}см."><img src="${currentProduct.linkResize}" alt="Дубовый слэб" title="Дубовый слэб"></a>
          </p>
          <p><b>Размеры:</b><br>
          Длина: ${currentProduct.height}см;<br>
          Ширина: ${currentProduct.widthMax}-${currentProduct.widthMin}см;<br>
          Толщина: ${currentProduct.thickness}см;<br>
-         Цена: <span class="price">${currentProduct.price * dollarRate} руб</span>
+         Цена: <span class="price">${currentProduct.price * dollarRate} руб</span><br>
+         <span>Актуальные цены и наличие уточняйте по телефону <a class="linkFollow" href="tel:+375291860031" title="Звоните прямо сейчас!">+375(29) 186-00-31</a> или смотрите в каталоге нашего основного сайта <a class="linkFollow" href="https://xn--80ahjdhb0ac7k.xn--90ais/product-category/dubovye-sleby/">экодизайн.бел</a></span>
          </p>`;
         product_slab.appendChild(div);
     });
@@ -87,13 +88,14 @@ const showProductDub = (doskaDub)=>{
         div.innerHTML =
             `<h3 class="category">${currentProduct.name}</h3>
          <p>
-             <a href="${currentProduct.linkFullsize}" data-description="${currentProduct.name} Цена: ${currentProduct.price * dollarRate} руб. <br> Размер: ${currentProduct.height}*${currentProduct.widthMax}-${currentProduct.widthMin}*${currentProduct.thickness}см."><img src="${currentProduct.linkResize}" alt="Доска дубовая" /></a>
+             <a class="item-image" href="${currentProduct.linkFullsize}" data-description="${currentProduct.name} Цена: ${currentProduct.price * dollarRate} руб. <br> Размер: ${currentProduct.height}*${currentProduct.widthMax}-${currentProduct.widthMin}*${currentProduct.thickness}см."><img src="${currentProduct.linkResize}" alt="Доска дубовая" /></a>
          </p>
          <p><b>Размеры:</b><br>
          Длина: ${currentProduct.height}см;<br>
          Ширина: ${currentProduct.widthMax}-${currentProduct.widthMin}см;<br>
          Толщина: ${currentProduct.thickness}см;<br>
-         Цена: <span class="price">${currentProduct.price * dollarRate} руб</span>
+         Цена: <span class="price">${currentProduct.price * dollarRate} руб</span><br>
+         <span>Актуальные цены и наличие уточняйте по телефону <a class="linkFollow" href="tel:+375291860031" title="Звоните прямо сейчас!">+375(29) 186-00-31</a> или смотрите в каталоге нашего основного сайта <a class="linkFollow" href="https://xn--80ahjdhb0ac7k.xn--90ais/product-category/doska-dubovaya/">экодизайн.бел</a></span>
          </p>`;
         product_dub.appendChild(div);
     });
@@ -111,13 +113,14 @@ const showProductYasen = (doskaYasen)=>{
         div.innerHTML =
             `<h3 class="category">${currentProduct.name}</h3>
          <p>
-             <a href="${currentProduct.linkFullsize}" data-description="${currentProduct.name} Цена: ${currentProduct.price * dollarRate} руб. <br> Размер: ${currentProduct.height}*${currentProduct.widthMax}-${currentProduct.widthMin}*${currentProduct.thickness}см."><img src="${currentProduct.linkResize}" alt="Доска дубовая" /></a>
+             <a class="item-image" href="${currentProduct.linkFullsize}" data-description="${currentProduct.name} Цена: ${currentProduct.price * dollarRate} руб. <br> Размер: ${currentProduct.height}*${currentProduct.widthMax}-${currentProduct.widthMin}*${currentProduct.thickness}см."><img src="${currentProduct.linkResize}" alt="Доска дубовая" /></a>
          </p>
          <p><b>Размеры:</b><br>
          Длина: ${currentProduct.height}см;<br>
          Ширина: ${currentProduct.widthMax}-${currentProduct.widthMin}см;<br>
          Толщина: ${currentProduct.thickness}см;<br>
-         Цена: <span class="price">${currentProduct.price * dollarRate} руб</span>
+         Цена: <span class="price">${currentProduct.price * dollarRate} руб</span><br>
+         <span>Актуальные цены и наличие уточняйте по телефону <a class="linkFollow" href="tel:+375291860031" title="Звоните прямо сейчас!">+375(29) 186-00-31</a> или смотрите в каталоге нашего основного сайта <a class="linkFollow" href="https://xn--80ahjdhb0ac7k.xn--90ais/katalog/">экодизайн.бел</a></span>
          </p>`;
         product_yasen.appendChild(div);
     });
@@ -135,13 +138,14 @@ const showProductDubMoreny = (doskaDubMoreny)=>{
         div.innerHTML =
             `<h3 class="category">${currentProduct.name}</h3>
          <p>
-             <a href="${currentProduct.linkFullsize}" data-description="${currentProduct.name} Цена: ${currentProduct.price * dollarRate} руб. <br> Размер: ${currentProduct.height}*${currentProduct.widthMax}-${currentProduct.widthMin}*${currentProduct.thickness}см."><img src="${currentProduct.linkResize}" alt="Доска дубовая" /></a>
+             <a class="item-image" href="${currentProduct.linkFullsize}" data-description="${currentProduct.name} Цена: ${currentProduct.price * dollarRate} руб. <br> Размер: ${currentProduct.height}*${currentProduct.widthMax}-${currentProduct.widthMin}*${currentProduct.thickness}см."><img src="${currentProduct.linkResize}" alt="Доска дубовая" /></a>
          </p>
          <p><b>Размеры:</b><br>
          Длина: ${currentProduct.height}см;<br>
          Ширина: ${currentProduct.widthMax}-${currentProduct.widthMin}см;<br>
          Толщина: ${currentProduct.thickness}см;<br>
-         Цена: <span class="price">${currentProduct.price * dollarRate} руб</span>
+         Цена: <span class="price">${currentProduct.price * dollarRate} руб</span><br>
+         <span>Актуальные цены и наличие уточняйте по телефону <a class="linkFollow" href="tel:+375291860031" title="Звоните прямо сейчас!">+375(29) 186-00-31</a> или смотрите в каталоге нашего основного сайта <a class="linkFollow" href="https://xn--80ahjdhb0ac7k.xn--90ais/product-category/dub-morenyj/">экодизайн.бел</a></span>
          </p>`;
         product_dub_moreny.appendChild(div);
     });
@@ -159,13 +163,14 @@ const showProductDubMorenySlab = (slebyDubMoreny)=>{
         div.innerHTML =
             `<h3 class="category">${currentProduct.name}</h3>
          <p>
-             <a href="${currentProduct.linkFullsize}" data-description="${currentProduct.name} Цена: ${currentProduct.price * dollarRate} руб. <br> Размер: ${currentProduct.height}*${currentProduct.widthMax}-${currentProduct.widthMin}*${currentProduct.thickness}см."><img src="${currentProduct.linkResize}" alt="Доска дубовая" /></a>
+             <a class="item-image" href="${currentProduct.linkFullsize}" data-description="${currentProduct.name} Цена: ${currentProduct.price * dollarRate} руб. <br> Размер: ${currentProduct.height}*${currentProduct.widthMax}-${currentProduct.widthMin}*${currentProduct.thickness}см."><img src="${currentProduct.linkResize}" alt="Доска дубовая" /></a>
          </p>
          <p><b>Размеры:</b><br>
          Длина: ${currentProduct.height}см;<br>
          Ширина: ${currentProduct.widthMax}-${currentProduct.widthMin}см;<br>
          Толщина: ${currentProduct.thickness}см;<br>
-         Цена: <span class="price">${currentProduct.price * dollarRate} руб</span>
+         Цена: <span class="price">${currentProduct.price * dollarRate} руб</span><br>
+         <span>Актуальные цены и наличие уточняйте по телефону <a class="linkFollow" href="tel:+375291860031" title="Звоните прямо сейчас!">+375(29) 186-00-31</a> или смотрите в каталоге нашего основного сайта <a class="linkFollow" href="https://xn--80ahjdhb0ac7k.xn--90ais/product-category/dub-morenyj-sleby/">экодизайн.бел</a></span>
          </p>`;
         product_dub_moreny_sleb.appendChild(div);
     });
@@ -183,13 +188,14 @@ const showProductGrushaSlab = (slebyGrusha)=>{
         div.innerHTML =
             `<h3 class="category">${currentProduct.name}</h3>
          <p>
-             <a href="${currentProduct.linkFullsize}" data-description="${currentProduct.name} Цена: ${currentProduct.price * dollarRate} руб. <br> Размер: ${currentProduct.height}*${currentProduct.widthMax}-${currentProduct.widthMin}*${currentProduct.thickness}см."><img src="${currentProduct.linkResize}" alt="Доска дубовая" /></a>
+             <a class="item-image" href="${currentProduct.linkFullsize}" data-description="${currentProduct.name} Цена: ${currentProduct.price * dollarRate} руб. <br> Размер: ${currentProduct.height}*${currentProduct.widthMax}-${currentProduct.widthMin}*${currentProduct.thickness}см."><img src="${currentProduct.linkResize}" alt="Доска дубовая" /></a>
          </p>
          <p><b>Размеры:</b><br>
          Длина: ${currentProduct.height}см;<br>
          Ширина: ${currentProduct.widthMax}-${currentProduct.widthMin}см;<br>
          Толщина: ${currentProduct.thickness}см;<br>
-         Цена: <span class="price">${currentProduct.price * dollarRate} руб</span>
+         Цена: <span class="price">${currentProduct.price * dollarRate} руб</span><br>
+         <span>Актуальные цены и наличие уточняйте по телефону <a class="linkFollow" href="tel:+375291860031" title="Звоните прямо сейчас!">+375(29) 186-00-31</a> или смотрите в каталоге нашего основного сайта <a class="linkFollow" href="https://xn--80ahjdhb0ac7k.xn--90ais/product-category/sleby-grushi/">экодизайн.бел</a></span>
          </p>`;
         product_grusha_sleb.appendChild(div);
     });
@@ -207,13 +213,14 @@ const showProductKapovyTopol = (slebyKapovyTopol)=>{
         div.innerHTML =
             `<h3 class="category">${currentProduct.name}</h3>
          <p>
-             <a href="${currentProduct.linkFullsize}" data-description="${currentProduct.name} Цена: ${currentProduct.price * dollarRate} руб. <br> Размер: ${currentProduct.height}*${currentProduct.widthMax}-${currentProduct.widthMin}*${currentProduct.thickness}см."><img src="${currentProduct.linkResize}" alt="Доска дубовая" /></a>
+             <a class="item-image" href="${currentProduct.linkFullsize}" data-description="${currentProduct.name} Цена: ${currentProduct.price * dollarRate} руб. <br> Размер: ${currentProduct.height}*${currentProduct.widthMax}-${currentProduct.widthMin}*${currentProduct.thickness}см."><img src="${currentProduct.linkResize}" alt="Доска дубовая" /></a>
          </p>
          <p><b>Размеры:</b><br>
          Длина: ${currentProduct.height}см;<br>
          Ширина: ${currentProduct.widthMax}-${currentProduct.widthMin}см;<br>
          Толщина: ${currentProduct.thickness}см;<br>
-         Цена: <span class="price">${currentProduct.price * dollarRate} руб</span>
+         Цена: <span class="price">${currentProduct.price * dollarRate} руб</span><br>
+         <span>Актуальные цены и наличие уточняйте по телефону <a class="linkFollow" href="tel:+375291860031" title="Звоните прямо сейчас!">+375(29) 186-00-31</a> или смотрите в каталоге нашего основного сайта <a class="linkFollow" href="https://xn--80ahjdhb0ac7k.xn--90ais/product-category/kapovyj-topol-sleby/">экодизайн.бел</a></span>
          </p>`;
          product_kapovy_topol_sleb.appendChild(div);
     });

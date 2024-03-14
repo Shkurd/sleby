@@ -184,6 +184,10 @@ let conf = {
             template:path.resolve('src' ,'article_05_shirokie_sleby.php'),
             filename: 'article_05_shirokie_sleby.php'
         }),
+        new HtmlWebpackPlugin({
+            template:path.resolve('src' ,'article_06_mebel_vabi_sabi.php'),
+            filename: 'article_06_mebel_vabi_sabi.php'
+        }),
 
         new CopyWebpackPlugin([
             {

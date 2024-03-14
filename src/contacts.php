@@ -31,13 +31,17 @@
                                 <li>
                                     Наша страница в<a class="linkFollow" href="https://www.instagram.com/ecodesignbel/" title="Перейти в Instagram" rel="noopener" target="_blank"> Instagram </a>
                                 </li>
-								<li>
-									Наша группа<a class="linkFollow" href="https://vk.com/ecodesignbel" title="Перейти в группу ВК" rel="noopener" target="_blank"> Вконтакте </a>
-								</li>
+                                <!--
+                                    <li>
+                                        Наша группа<a class="linkFollow" href="https://vk.com/ecodesignbel" title="Перейти в группу ВК" rel="noopener" target="_blank"> Вконтакте </a>
+                                    </li>
+                                    <li>
+                                        Наша группа в<a class="linkFollow" href="https://www.facebook.com/ecodesignbel/" title="Перейти в Facebook" rel="noopener" target="_blank"> Facebook </a>
+                                    </li>
+                                -->
                                 <li>
-                                    Наша группа в<a class="linkFollow" href="https://www.facebook.com/ecodesignbel/" title="Перейти в Facebook" rel="noopener" target="_blank"> Facebook </a>
+                                    Наш основной сайт<a class="linkFollow" href="https://xn--80ahjdhb0ac7k.xn--90ais/" title="Перейти на основной сайт" rel="noopener" target="_blank"> Экодизайн.бел</a>
                                 </li>
-
 								<li>
 									Или воспользуйтесь формой обратной связи (при отправке перенаправляет на сторонний ресурс, где необходимо поставить галочку подтверждающую, что вы не робот):
 								</li>

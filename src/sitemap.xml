@@ -87,6 +87,11 @@
   <priority>1.0</priority>
 </url>
 <url>
+  <loc>https://sleby.by/article_06_mebel_vabi_sabi</loc>
+  <lastmod>2024-03-14T20:16:31+01:00</lastmod>
+  <priority>1.0</priority>
+</url>
+<url>
   <loc>https://sleby.by/article_05_shirokie_sleby</loc>
   <lastmod>2019-09-17T20:16:31+01:00</lastmod>
   <priority>1.0</priority>
@@ -116,7 +121,5 @@
   <lastmod>2019-09-17T20:16:31+01:00</lastmod>
   <priority>1.0</priority>
 </url>
-
-
 
 </urlset>
